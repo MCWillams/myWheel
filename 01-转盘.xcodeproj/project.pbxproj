@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60E17C111B233B6C00D4E6BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E17C101B233B6C00D4E6BF /* Foundation.framework */; };
+		60E17C131B233B6C00D4E6BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E17C121B233B6C00D4E6BF /* CoreGraphics.framework */; };
+		60E17C151B233B6C00D4E6BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E17C141B233B6C00D4E6BF /* UIKit.framework */; };
+		60E17C1B1B233B6C00D4E6BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60E17C191B233B6C00D4E6BF /* InfoPlist.strings */; };
+		60E17C1D1B233B6C00D4E6BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E17C1C1B233B6C00D4E6BF /* main.m */; };
+		60E17C211B233B6C00D4E6BF /* YBQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E17C201B233B6C00D4E6BF /* YBQAppDelegate.m */; };
+		60E17C241B233B6C00D4E6BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60E17C221B233B6C00D4E6BF /* Main.storyboard */; };
+		60E17C271B233B6C00D4E6BF /* YBQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E17C261B233B6C00D4E6BF /* YBQViewController.m */; };
+		60E17C291B233B6C00D4E6BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60E17C281B233B6C00D4E6BF /* Images.xcassets */; };
+		60E17C301B233B6D00D4E6BF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E17C2F1B233B6D00D4E6BF /* XCTest.framework */; };
+		60E17C311B233B6D00D4E6BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E17C101B233B6C00D4E6BF /* Foundation.framework */; };
+		60E17C321B233B6D00D4E6BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E17C141B233B6C00D4E6BF /* UIKit.framework */; };
+		60E17C3A1B233B6D00D4E6BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60E17C381B233B6D00D4E6BF /* InfoPlist.strings */; };
+		60E17C3C1B233B6D00D4E6BF /* _1___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E17C3B1B233B6D00D4E6BF /* _1___Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60E17C331B233B6D00D4E6BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60E17C051B233B6C00D4E6BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60E17C0C1B233B6C00D4E6BF;
+			remoteInfo = "01-转盘";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60E17C0D1B233B6C00D4E6BF /* 01-转盘.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-转盘.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E17C101B233B6C00D4E6BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60E17C121B233B6C00D4E6BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60E17C141B233B6C00D4E6BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60E17C181B233B6C00D4E6BF /* 01-转盘-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01-转盘-Info.plist"; sourceTree = "<group>"; };
+		60E17C1A1B233B6C00D4E6BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60E17C1C1B233B6C00D4E6BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60E17C1E1B233B6C00D4E6BF /* 01-转盘-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "01-转盘-Prefix.pch"; sourceTree = "<group>"; };
+		60E17C1F1B233B6C00D4E6BF /* YBQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBQAppDelegate.h; sourceTree = "<group>"; };
+		60E17C201B233B6C00D4E6BF /* YBQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBQAppDelegate.m; sourceTree = "<group>"; };
+		60E17C231B233B6C00D4E6BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60E17C251B233B6C00D4E6BF /* YBQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YBQViewController.h; sourceTree = "<group>"; };
+		60E17C261B233B6C00D4E6BF /* YBQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YBQViewController.m; sourceTree = "<group>"; };
+		60E17C281B233B6C00D4E6BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		60E17C2E1B233B6D00D4E6BF /* 01-转盘Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-转盘Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		60E17C2F1B233B6D00D4E6BF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		60E17C371B233B6D00D4E6BF /* 01-转盘Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01-转盘Tests-Info.plist"; sourceTree = "<group>"; };
+		60E17C391B233B6D00D4E6BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60E17C3B1B233B6D00D4E6BF /* _1___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1___Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60E17C0A1B233B6C00D4E6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E17C131B233B6C00D4E6BF /* CoreGraphics.framework in Frameworks */,
+				60E17C151B233B6C00D4E6BF /* UIKit.framework in Frameworks */,
+				60E17C111B233B6C00D4E6BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E17C2B1B233B6D00D4E6BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E17C301B233B6D00D4E6BF /* XCTest.framework in Frameworks */,
+				60E17C321B233B6D00D4E6BF /* UIKit.framework in Frameworks */,
+				60E17C311B233B6D00D4E6BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60E17C041B233B6C00D4E6BF = {
+			isa = PBXGroup;
+			children = (
+				60E17C161B233B6C00D4E6BF /* 01-转盘 */,
+				60E17C351B233B6D00D4E6BF /* 01-转盘Tests */,
+				60E17C0F1B233B6C00D4E6BF /* Frameworks */,
+				60E17C0E1B233B6C00D4E6BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60E17C0E1B233B6C00D4E6BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60E17C0D1B233B6C00D4E6BF /* 01-转盘.app */,
+				60E17C2E1B233B6D00D4E6BF /* 01-转盘Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60E17C0F1B233B6C00D4E6BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60E17C101B233B6C00D4E6BF /* Foundation.framework */,
+				60E17C121B233B6C00D4E6BF /* CoreGraphics.framework */,
+				60E17C141B233B6C00D4E6BF /* UIKit.framework */,
+				60E17C2F1B233B6D00D4E6BF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60E17C161B233B6C00D4E6BF /* 01-转盘 */ = {
+			isa = PBXGroup;
+			children = (
+				60E17C1F1B233B6C00D4E6BF /* YBQAppDelegate.h */,
+				60E17C201B233B6C00D4E6BF /* YBQAppDelegate.m */,
+				60E17C221B233B6C00D4E6BF /* Main.storyboard */,
+				60E17C251B233B6C00D4E6BF /* YBQViewController.h */,
+				60E17C261B233B6C00D4E6BF /* YBQViewController.m */,
+				60E17C281B233B6C00D4E6BF /* Images.xcassets */,
+				60E17C171B233B6C00D4E6BF /* Supporting Files */,
+			);
+			path = "01-转盘";
+			sourceTree = "<group>";
+		};
+		60E17C171B233B6C00D4E6BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60E17C181B233B6C00D4E6BF /* 01-转盘-Info.plist */,
+				60E17C191B233B6C00D4E6BF /* InfoPlist.strings */,
+				60E17C1C1B233B6C00D4E6BF /* main.m */,
+				60E17C1E1B233B6C00D4E6BF /* 01-转盘-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60E17C351B233B6D00D4E6BF /* 01-转盘Tests */ = {
+			isa = PBXGroup;
+			children = (
+				60E17C3B1B233B6D00D4E6BF /* _1___Tests.m */,
+				60E17C361B233B6D00D4E6BF /* Supporting Files */,
+			);
+			path = "01-转盘Tests";
+			sourceTree = "<group>";
+		};
+		60E17C361B233B6D00D4E6BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60E17C371B233B6D00D4E6BF /* 01-转盘Tests-Info.plist */,
+				60E17C381B233B6D00D4E6BF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60E17C0C1B233B6C00D4E6BF /* 01-转盘 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E17C3F1B233B6D00D4E6BF /* Build configuration list for PBXNativeTarget "01-转盘" */;
+			buildPhases = (
+				60E17C091B233B6C00D4E6BF /* Sources */,
+				60E17C0A1B233B6C00D4E6BF /* Frameworks */,
+				60E17C0B1B233B6C00D4E6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-转盘";
+			productName = "01-转盘";
+			productReference = 60E17C0D1B233B6C00D4E6BF /* 01-转盘.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60E17C2D1B233B6D00D4E6BF /* 01-转盘Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E17C421B233B6D00D4E6BF /* Build configuration list for PBXNativeTarget "01-转盘Tests" */;
+			buildPhases = (
+				60E17C2A1B233B6D00D4E6BF /* Sources */,
+				60E17C2B1B233B6D00D4E6BF /* Frameworks */,
+				60E17C2C1B233B6D00D4E6BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60E17C341B233B6D00D4E6BF /* PBXTargetDependency */,
+			);
+			name = "01-转盘Tests";
+			productName = "01-转盘Tests";
+			productReference = 60E17C2E1B233B6D00D4E6BF /* 01-转盘Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60E17C051B233B6C00D4E6BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YBQ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					60E17C2D1B233B6D00D4E6BF = {
+						TestTargetID = 60E17C0C1B233B6C00D4E6BF;
+					};
+				};
+			};
+			buildConfigurationList = 60E17C081B233B6C00D4E6BF /* Build configuration list for PBXProject "01-转盘" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60E17C041B233B6C00D4E6BF;
+			productRefGroup = 60E17C0E1B233B6C00D4E6BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60E17C0C1B233B6C00D4E6BF /* 01-转盘 */,
+				60E17C2D1B233B6D00D4E6BF /* 01-转盘Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60E17C0B1B233B6C00D4E6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E17C291B233B6C00D4E6BF /* Images.xcassets in Resources */,
+				60E17C1B1B233B6C00D4E6BF /* InfoPlist.strings in Resources */,
+				60E17C241B233B6C00D4E6BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E17C2C1B233B6D00D4E6BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E17C3A1B233B6D00D4E6BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60E17C091B233B6C00D4E6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E17C1D1B233B6C00D4E6BF /* main.m in Sources */,
+				60E17C271B233B6C00D4E6BF /* YBQViewController.m in Sources */,
+				60E17C211B233B6C00D4E6BF /* YBQAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E17C2A1B233B6D00D4E6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60E17C3C1B233B6D00D4E6BF /* _1___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60E17C341B233B6D00D4E6BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60E17C0C1B233B6C00D4E6BF /* 01-转盘 */;
+			targetProxy = 60E17C331B233B6D00D4E6BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60E17C191B233B6C00D4E6BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60E17C1A1B233B6C00D4E6BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60E17C221B233B6C00D4E6BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60E17C231B233B6C00D4E6BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60E17C381B233B6D00D4E6BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60E17C391B233B6D00D4E6BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60E17C3D1B233B6D00D4E6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60E17C3E1B233B6D00D4E6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60E17C401B233B6D00D4E6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-转盘/01-转盘-Prefix.pch";
+				INFOPLIST_FILE = "01-转盘/01-转盘-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60E17C411B233B6D00D4E6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-转盘/01-转盘-Prefix.pch";
+				INFOPLIST_FILE = "01-转盘/01-转盘-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		60E17C431B233B6D00D4E6BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/01-转盘.app/01-转盘";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-转盘/01-转盘-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "01-转盘Tests/01-转盘Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		60E17C441B233B6D00D4E6BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/01-转盘.app/01-转盘";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "01-转盘/01-转盘-Prefix.pch";
+				INFOPLIST_FILE = "01-转盘Tests/01-转盘Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60E17C081B233B6C00D4E6BF /* Build configuration list for PBXProject "01-转盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E17C3D1B233B6D00D4E6BF /* Debug */,
+				60E17C3E1B233B6D00D4E6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60E17C3F1B233B6D00D4E6BF /* Build configuration list for PBXNativeTarget "01-转盘" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E17C401B233B6D00D4E6BF /* Debug */,
+				60E17C411B233B6D00D4E6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60E17C421B233B6D00D4E6BF /* Build configuration list for PBXNativeTarget "01-转盘Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60E17C431B233B6D00D4E6BF /* Debug */,
+				60E17C441B233B6D00D4E6BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60E17C051B233B6C00D4E6BF /* Project object */;
+}
