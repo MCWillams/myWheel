@@ -7,7 +7,7 @@
 //
 
 #import "YBQViewController.h"
-
+#import "BQWheel.h"
 @interface YBQViewController ()
 
 @end
@@ -17,13 +17,12 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    BQWheel *wheel = [BQWheel wheel];
+    wheel.center = CGPointMake(self.view.frame.size.width * 0.5, self.view.frame.size.height * 0.5);
+    [self.view addSubview:wheel];
+    [wheel startRoatating];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end

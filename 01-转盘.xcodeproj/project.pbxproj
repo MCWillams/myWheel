@@ -21,6 +21,9 @@
 		60E17C321B233B6D00D4E6BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E17C141B233B6C00D4E6BF /* UIKit.framework */; };
 		60E17C3A1B233B6D00D4E6BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60E17C381B233B6D00D4E6BF /* InfoPlist.strings */; };
 		60E17C3C1B233B6D00D4E6BF /* _1___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E17C3B1B233B6D00D4E6BF /* _1___Tests.m */; };
+		60E17C471B23C90600D4E6BF /* BQWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E17C461B23C90600D4E6BF /* BQWheel.m */; };
+		60E17C4A1B23C93500D4E6BF /* BQWheel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60E17C491B23C93500D4E6BF /* BQWheel.xib */; };
+		60E17C4D1B23EF1A00D4E6BF /* BQWheelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 60E17C4C1B23EF1A00D4E6BF /* BQWheelButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		60E17C371B233B6D00D4E6BF /* 01-转盘Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "01-转盘Tests-Info.plist"; sourceTree = "<group>"; };
 		60E17C391B233B6D00D4E6BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		60E17C3B1B233B6D00D4E6BF /* _1___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_1___Tests.m"; sourceTree = "<group>"; };
+		60E17C451B23C90600D4E6BF /* BQWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BQWheel.h; sourceTree = "<group>"; };
+		60E17C461B23C90600D4E6BF /* BQWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BQWheel.m; sourceTree = "<group>"; };
+		60E17C491B23C93500D4E6BF /* BQWheel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BQWheel.xib; sourceTree = "<group>"; };
+		60E17C4B1B23EF1A00D4E6BF /* BQWheelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BQWheelButton.h; sourceTree = "<group>"; };
+		60E17C4C1B23EF1A00D4E6BF /* BQWheelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BQWheelButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +120,7 @@
 		60E17C161B233B6C00D4E6BF /* 01-转盘 */ = {
 			isa = PBXGroup;
 			children = (
+				60E17C481B23C91200D4E6BF /* view */,
 				60E17C1F1B233B6C00D4E6BF /* YBQAppDelegate.h */,
 				60E17C201B233B6C00D4E6BF /* YBQAppDelegate.m */,
 				60E17C221B233B6C00D4E6BF /* Main.storyboard */,
@@ -150,6 +159,18 @@
 				60E17C381B233B6D00D4E6BF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60E17C481B23C91200D4E6BF /* view */ = {
+			isa = PBXGroup;
+			children = (
+				60E17C451B23C90600D4E6BF /* BQWheel.h */,
+				60E17C461B23C90600D4E6BF /* BQWheel.m */,
+				60E17C4B1B23EF1A00D4E6BF /* BQWheelButton.h */,
+				60E17C4C1B23EF1A00D4E6BF /* BQWheelButton.m */,
+				60E17C491B23C93500D4E6BF /* BQWheel.xib */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60E17C4A1B23C93500D4E6BF /* BQWheel.xib in Resources */,
 				60E17C291B233B6C00D4E6BF /* Images.xcassets in Resources */,
 				60E17C1B1B233B6C00D4E6BF /* InfoPlist.strings in Resources */,
 				60E17C241B233B6C00D4E6BF /* Main.storyboard in Resources */,
@@ -250,8 +272,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60E17C471B23C90600D4E6BF /* BQWheel.m in Sources */,
 				60E17C1D1B233B6C00D4E6BF /* main.m in Sources */,
 				60E17C271B233B6C00D4E6BF /* YBQViewController.m in Sources */,
+				60E17C4D1B23EF1A00D4E6BF /* BQWheelButton.m in Sources */,
 				60E17C211B233B6C00D4E6BF /* YBQAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +481,7 @@
 				60E17C411B233B6D00D4E6BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60E17C421B233B6D00D4E6BF /* Build configuration list for PBXNativeTarget "01-转盘Tests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +490,7 @@
 				60E17C441B233B6D00D4E6BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
